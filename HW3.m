@@ -89,6 +89,16 @@ eig_AAt = eig(A*transpose(A))
 clc
 clear all
 disp("Question VI.)")
+disp("Q3")
+
+A = [1 2 3; 3 4 6; 7 2 1]
+B = [7 2 1; 7 3 6; 3 4 1]
+
+A_inv = inv(A)
+B_inv = inv(B)
+
+AB_inv = inv((A+B))
+
 
 
 
